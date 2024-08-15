@@ -1,5 +1,12 @@
+import React from 'react'
+
+type ContainerProps = {
+  title: string
+  children: React.ReactNode
+}
+
 // Container は赤背景のボックスの中にタイトルと子要素を表示します
-const Container = (props: {title: string, children: React.ReactElement}) => {
+const Container = (props: ContainerProps): JSX.Element => {
   const { title, children } = props
 
   return (
