@@ -6,6 +6,8 @@ import Hello from './components/Hello';
 import Name from './components/Name';
 import ContainerSample from './components/ContainerSample';
 import ContextSample from './components/ContextSample';
+import Counter from './Counter';
+import Counter2 from './Counter2';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -17,6 +19,8 @@ root.render(
     <Hello />
     <Name />
     <ContainerSample />
+    <Counter initialValue={0}/>
+    <Counter2 initialValue={0}/>
   </React.StrictMode>
 );
 
