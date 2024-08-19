@@ -11,6 +11,7 @@ import Counter2 from './Counter2';
 import { Parent } from './Parent';
 import { Parent2 } from './Parent2';
 import { UseMemoSample } from './UseMemoSample';
+import { Clock } from './Clock';
 
 
 const root = ReactDOM.createRoot(
@@ -29,6 +30,7 @@ root.render(
     <h3>useCallback</h3>
     <Parent2 />
     <UseMemoSample />
+    <Clock />
   </React.StrictMode>
 );
 
