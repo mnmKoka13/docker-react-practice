@@ -12,6 +12,9 @@ import { Parent } from './Parent';
 import { Parent2 } from './Parent2';
 import { UseMemoSample } from './UseMemoSample';
 import { Clock } from './Clock';
+import Parent3 from './Parent3';
+import ImageUploader from './ImageUploader';
+import UseImperativeParent from './UseImperativeParent';
 
 
 const root = ReactDOM.createRoot(
@@ -31,6 +34,9 @@ root.render(
     <Parent2 />
     <UseMemoSample />
     <Clock />
+    <Parent3 />
+    <ImageUploader />
+    <UseImperativeParent />
   </React.StrictMode>
 );
 
