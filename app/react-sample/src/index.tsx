@@ -15,6 +15,7 @@ import { Clock } from './Clock';
 import Parent3 from './Parent3';
 import ImageUploader from './ImageUploader';
 import UseImperativeParent from './UseImperativeParent';
+import { Input } from './UseCustomHook';
 
 
 const root = ReactDOM.createRoot(
@@ -37,6 +38,7 @@ root.render(
     <Parent3 />
     <ImageUploader />
     <UseImperativeParent />
+    <Input />
   </React.StrictMode>
 );
 
